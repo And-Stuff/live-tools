@@ -1,21 +1,24 @@
 {
   "name": "live-tools",
-  "version": "1.0-beta.1",
-  "description": "A node.js based system providing various functionality during live broadcasts.",
+  "version": "1.0.0",
+  "description": "A node.js based system for providing show critical services on XTV live broadcasts.",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xtv-online/live-tools.git"
+    "url": "git+https://github.com/And-Stuff/live-tools.git"
   },
   "author": "Sam Hutchings, Nik Rahmel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xtv-online/live-tools/issues"
+    "url": "https://github.com/And-Stuff/live-tools/issues"
   },
-  "homepage": "https://github.com/xtv-online/live-tools#readme",
+  "homepage": "https://github.com/And-Stuff/live-tools#readme",
   "dependencies": {
     "atem": "^0.1.4",
     "colour": "^0.7.1",
